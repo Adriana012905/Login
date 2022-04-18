@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@200&family=League+Gothic&family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+margin:0;
+background: url('../imagen/imagen.jpg');
+font-family: 'Bebas Neue', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Playfair Display', serif;
+background-size:cover;
+background-attachment:fixed;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+.contenedor{
+width:100%;
+padding:10px;
+}
+
+.formulario{
+background:#fff;
+margin:60px;
+padding:3px;
+  
+}
+h1{
+text-align:center;
+color:#2d83b9;
+font-size:40px;
+}
+input[type="text"],
+input[type="password"]{
+font-size:20px;
+width:82%;
+padding:10px;
+border:1px solid #aaa;
+}
+
+.input-contenedor{
+  margin-botton:15px;
+  border:1px solid #aaa;
+  
+}
+.icon{
+min-width:50px;
+text-aling:center;
+color:#527198;
+padding:20px;
+}
+
+.Ingresar{
+   aling-items: center;
+  justify-content: center
+}
+.button{
+  border:none;
+  width:100%;
+  color:#fff;
+  font-size:20px;
+  background:#527198;
+  padding:  15 px 20px;
+  border-radius:5px;
+  cursor: pointer;
+
+}
+
+.button:hover{
+background:#97bae7;
+  
+}
+p{
+  text-align:center;
+}
+.link{
+  text-decoration:none;
+  color:#2d83b9;
+  font-weight:600;
+}
+
+.link:hover{
+  color:#97bae7;
+}
+
+@media(min-width:768px){
+  .formulario{
+    margin:auto;
+    width:500px;
+    margin-top:150px;
+    border-radius:2%;
+  }
+}
